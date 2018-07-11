@@ -5,5 +5,5 @@ def oxford_comma(array)
     temp = array.slice(0, array.size - 1).join(", ")
     array = temp + "," + " and " + array[-1]
   end
-  puts array
+  return array
 end
